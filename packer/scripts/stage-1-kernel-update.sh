@@ -9,6 +9,6 @@ rm -f /boot/*3.10*
 # Update GRUB
 grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-set-default 0
-echo "Grub update done."
+echo "Grub update is done."
 # Reboot VM
 shutdown -r now
